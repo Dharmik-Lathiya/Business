@@ -1,0 +1,503 @@
+:root{
+    --org:#b19541;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Montserrat';
+    /* background:url("Assests/back.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed; */
+}
+
+.header{
+    background:url("Assests/home-header.jpg") no-repeat;
+    background-size:100% auto;
+    height: 45vw;
+    width: 94.96.5%;
+    box-shadow :10vw -2vw 100vw 20vw rgba(0,0,0,0.9) inset;
+    padding: 1.5vw 0vw 0vw 5vw;
+}
+.header-nav{
+    display: flex;
+}
+.header-logo img{
+    height: 3.7vw;
+    width: 20vw;
+}
+.header-menus{
+    display: flex;
+    font-size: 1.4vw;
+    margin-left: 15vw;
+    height: 2vw;
+}
+.header-menus li{
+    margin-left: 2vw;
+    list-style: none;
+    font-weight: 700;
+}
+.header-menus li a{
+    margin-left: 0vw;
+    list-style: none;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+.header-menus li:hover{
+    color: var(--org);
+    text-decoration: unset;
+}
+.header-menus li::before{
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: var(--org);
+    top: 5vw;
+    width: 0%;
+}
+.header-menus li:hover::before{
+    width: 3vw;
+} 
+.header-menus li a:hover{
+    color: var(--org);
+    text-decoration: unset;
+}
+.header-contect-button{
+    margin: 0.5vw 0vw 0vw 5vw;
+    background-color:var(--org);
+    border:0.1vw solid var(--org);
+    height: 1.3vw;
+    padding: 1.3vw;
+    font-size: 1vw;
+    font-weight: 700;
+}
+.header-contect-button:hover{
+    border:0.1vw solid var(--org);
+    background-color: transparent;
+    color: var(--org);
+}
+.header-text{
+    margin: 1vw 0vw 0vw 0vw;
+    width: 60vw;
+    font-family: Libre Baskerville;
+}
+.header-text b{
+    font-size: 9vw;
+    color: var(--org);
+}
+.header-text p{
+    margin:1vw 0vw 0vw 26vw;
+    font-size: 2.5vw;
+    width: 30vw;
+}
+.header-last{
+    display: flex;
+    margin: 0vw 0vw 0vw 0vw ;
+    background-color:black;
+    color: white;
+    height: 9vw;
+    width: 100%;
+    padding-top: 2vw;
+    box-sizing: border-box;
+    font-family: Libre Baskerville;
+}
+.header-last-one{
+    margin:0vw 0vw 0vw 5vw;
+    font-size: 3.5vw;
+    color: var(--org);
+}
+.header-last-two{
+    margin: 1vw 0vw 0vw 9vw;
+    width: 28vw;
+    font-family: Montserrat;
+    font-size: 1.3vw;
+}
+#sidelogo{
+    font-size: 3vw;
+    margin:1.8vw 0vw 0vw 33vw;
+    color: var(--org);
+}
+#header-hr{
+    width: 90vw;
+    height: 0.1vw;
+    margin-top: -1vw;
+    background-color:grey;
+}
+.cars{
+    display: flex;
+    height: 48vw;
+    background-color: black;
+}
+.cars-product{
+    margin: 5vw 0vw 0vw 3.5vw;
+}
+.cars-product-img{
+    background:url("Assests/fleet-0001-free-img.jpg");
+    background-size: 28vw 14vw;
+    height: 14vw;
+    width: 28vw;
+}
+.cars-product-content{
+    margin: 2.5vw 0vw 0vw 0vw;
+    display: flex;
+}
+.cars-product-ab{
+    margin-left: 2vw;
+    width: 24vw;
+}
+.cars-product-content b{
+    color:var(--org);
+    font-size: 2vw;
+}
+.cars-product-content-head{
+    color: white;
+    margin-top: 0vw;
+    font-size: 1.2vw;
+}
+.cars-product-content-text{
+    font-size: 1.3vw;
+    margin: 0.8vw 0vw 2vw 0vw;
+    font-weight: 700;
+}
+.cars-product-hr{
+    width: 100%;
+    height: 1vw;
+}
+.cars-product-content-footer{
+    margin: 1.7vw 0vw 2vw 0vw;
+    font-size: 1.3vw;
+}
+.cars-product-button{
+    margin-top: 3vw;
+    background-color:transparent;
+    height: 3.1vw;
+    width: 100%;
+    border: 0.15vw solid var(--org);
+    box-sizing: border-box;
+    text-align: center;
+}
+.cars-product-button:hover{
+    background-color: var(--org);
+    color: white;
+}
+.cars-product-button p{
+    font-size: 1vw;
+    font-weight: 900;
+    margin-top: 0.8vw;
+}
+.aboutus{
+    height: 65vw;
+    width: 100%;
+    background: url("Assests/about-01-free-img.jpg") no-repeat;
+    box-shadow :10vw -100vw 100vw 2vw rgba(0,0,0,0.85) inset;
+    background-size: 100vw 135vw;
+    display: flex;
+}
+.aboutus-one{
+    margin: 10vw 0vw 0vw 5vw;
+    z-index: 1;
+}
+.aboutus-one-head{
+    font-size: 1.3vw;
+    font-weight: 800;
+}
+.aboutus-one-text{
+    font-family: Libre Baskerville ;
+    margin: 1vw 0vw 0vw 0vw;
+    font-size: 4.5vw ;
+    width: 75vw;
+    color: var(--org);
+}
+.aboutus-one-textbas{
+    font-size: 1.2vw;
+    width: 27vw;
+    margin-top: 3vw;
+    word-spacing: 0.2vw;
+    line-height: 2vw;
+}
+.aboutus-button{
+    margin-top: 5vw;
+    background-color:transparent;
+    height: 3.1vw;
+    width: 15vw;
+    border: 0.15vw solid var(--org);
+    box-sizing: border-box;
+    text-align: center;
+}
+.aboutus-button:hover{
+    background-color: var(--org);
+    color: white;
+}   
+.aboutus-button p{
+    font-size: 1vw;
+    font-weight: 900;
+    margin-top: 0.8vw;
+    color: var(--org);
+}
+.aboutus-two{
+    background: url("Assests/about-01-free-img.jpg");
+    height: 65vw;
+    width: 50vw;
+    margin: 7vw 0vw 0vw -38vw;
+}
+.ourser{
+    padding: 14vw 0vw 0vw 5vw;
+    color: black;
+    font-family: Libre Baskerville;
+    height: 89vw;
+    background: url("Assests/back.jpg") no-repeat;
+    background-size: 100% 57vw;
+    box-shadow :100vw -2vw 100vw 20vw rgba(231, 231, 231, 0.7) inset;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+.ourser-head{
+    font-family: Libre Baskerville;
+    font-size: 1.5vw;
+    color: black;
+}
+.ourser-text{
+    font-family: Libre Baskerville;
+    margin-top: 1vw;
+    font-size: 4vw;
+    width: 70vw;
+    color: var(--org);
+    font-weight: 800;
+}
+.components{
+    margin: -50vw 0vw 0vw 0vw;
+    color: black;
+}
+.components-min{
+    margin-left: 5vw;
+    margin-top: 2vw;
+    width: 23vw;
+    height: 20vw;
+    background: transparent;
+}
+.components-hr{
+    background-color: var(--org);
+    height: 0.1vw;
+}
+.components-head{
+    font-size: 2.5vw;
+    margin-top: 1.5vw;
+    font-family: Libre Baskerville;
+    font-weight: 800;
+}
+.components-text{
+    font-size: 1.23vw;
+    margin-top: 2vw;
+    line-height: 2vw;
+    color: black;
+}
+.components-footer{
+    margin-top: 2vw;
+    font-size: 0.9vw;
+    font-weight: 800;
+}
+.why{
+    height: 88vw;
+    background-color:white;
+    display: flex;
+    margin-top: -4vw;
+}
+.why-image{
+    background:url("Assests/bg-05-free-img.jpg") no-repeat;
+    background-size: 60vw 84vw;
+    height: 82vw;
+    width: 70vw;
+    margin-left: -25vw;
+}
+.why-text{
+    padding: 10vw 0vw 0vw 5vw;
+    box-sizing: border-box;
+}
+.components-text-no{
+    display: flex;
+    margin-top: 13vw;
+    color: black;
+}
+.com-head-no{
+    margin-left: 2vw;
+}
+.com-head-no b{
+    color: var(--org);
+    font-size: 10vw;
+    font-family: Libre Baskerville;
+}
+.com-head-no p{
+    margin: -2vw 0vw 0vw 1vw;
+    font-weight: 800;
+    font-size: 1.5vw;
+    width: 12vw;
+}
+.test{
+    height: 63vw;
+    background-color:#f1f1f1;
+    padding-top: 10vw;
+    box-sizing: border-box;
+}
+.test-rev{
+    margin: 3vw 0vw 0vw 5.9vw;
+    width: 25vw;
+    color: black;
+    font-weight: 800;
+}
+.test-rev-one{
+    z-index: 1;
+    display:flex;
+}
+#qut{
+    font-size: 7vw;
+    float: inline-end;
+    margin-left: 6vw;
+    color: rgba(128, 128, 128, 0.258);
+}
+.test-rev-two{
+    margin-top: -1.7vw;
+    z-index: 2;
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+}
+#test-hr{
+    height: 0.1vw;
+    background-color: var(--org);
+    margin-top: 2.5vw;
+}
+.test-rev-thr img{
+    margin-top: 1vw;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 5vw;
+}
+.test-rev-thr{
+    font-size: 1.2vw;
+    display: flex;
+}
+.test-rev-thr-name{
+    margin: 2vw 0vw 0vw 2vw;
+    font-weight: 700;
+    font-family: Libre Baskerville;
+}
+.last{
+    height: 90vw;
+    background: url("Assests/bg-02-free-img.jpg") no-repeat;
+    background-size: 105vw 62vw;
+    background-attachment: fixed;
+    box-shadow :10vw -100vw 100vw 2vw rgba(0,0,0,0.5) inset;
+}
+.last-text{
+    padding: 25vw 0vw 0vw 5vw;
+    box-sizing: border-box;
+    font-family: Libre Baskerville;
+}
+.last-text b{
+    font-size: 9vw;
+    color: var(--org);
+}
+.last-text p{
+    margin:4vw 0vw 0vw 0vw;
+    font-size: 2.5vw;
+    width: 70vw;
+}
+.last-footer{
+    display: flex;
+}
+.last-bu{
+    margin-top: 7vw;
+    background-color:transparent;
+    height: 3.1vw;
+    width: 15vw;
+    border: 0.15vw solid var(--org);
+    padding-top: 0.55vw;
+    text-align: center;
+    box-sizing: border-box;
+}
+.last-bu:hover{
+    background-color: var(--org);
+    color:black;
+}   
+.last-bu b{
+    font-size: 1vw;
+    font-weight: 900;
+    
+    color: var(--org);
+}
+.last-footer-sec{
+    margin: 7vw 0vw 0vw 5vw;
+}
+.last-footer-sec b{
+    font-size: 1.6vw;
+    color: white;
+}
+.last-footer-sec a{
+    color:var(--org);
+    font-size: 1.9vw;
+    margin-top: 1vw;
+    font-weight: 800;
+}
+.last-footer hr{
+    margin: 4.8vw 0vw 0vw 6vw;
+    height: 8vw;
+    background-color: rgba(163, 163, 163, 0.603);
+    width: 0.2vw;
+    border: 0;
+}
+.footer{
+    background-color: white;
+    height: 60vw;
+    margin-top: -1.2vw;
+}
+.footer-list{
+    padding: 5vw;
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+}
+.footer-list-contect{
+    width: 20vw;
+    line-height: 2vw;
+}
+.footer-list-contect b{
+    font-weight: 800;
+}
+.footer-list-ser{
+    margin-left: 10vw;
+}
+.footer-list-ser li{
+    list-style-type: none;
+    margin-left: -3vw;
+}
+hr{
+    background-color: var(--org);
+    width: 99.9%;
+    height: 0.2vw;
+    margin-top: 1vw;
+}
+.footer-first-text{
+    font-family: Libre Baskerville;
+    font-size: 1.4vw;
+    color: black;
+    margin: 5vw 0vw 0vw 5vw ;
+}
+.footer-second-text{
+    margin: 2vw 0vw 0vw 5vw;
+    font-family: Libre Baskerville;
+    color: black;
+    font-size: 9vw;
+    font-weight: 600;
+}
+.footer-third{
+    color: grey;
+    margin: 6vw 0vw 0vw 5vw;
+}
+.footer-icon{
+    margin: 0vw 0vw 0vw 25vw;
+    font-size: 1.6vw;
+}
+.footer-icon i{
+    margin-left: 1vw;
+}

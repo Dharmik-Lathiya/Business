@@ -1,0 +1,324 @@
+:root{
+    --org:#b19541;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Montserrat';
+    /* background:url("Assests/back.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed; */
+}
+
+.header{
+    background:url("Assests/bg-09-free-img.jpg") no-repeat;
+    background-size:100% auto;
+    height: 45vw;
+    width: 94.96.5%;
+    box-shadow :2vw 1vw 10000vw 15vw rgba(0,0,0,0.9) inset;
+    padding: 1.5vw 0vw 0vw 5vw;
+}
+.header-nav{
+    display: flex;
+}
+.header-logo img{
+    height: 3.7vw;
+    width: 20vw;
+}
+.header-menus{
+    display: flex;
+    font-size: 1.4vw;
+    margin-left: 15vw;
+    height: 2vw;
+}
+.header-menus li{
+    margin-left: 2vw;
+    list-style: none;
+    font-weight: 700;
+}
+.header-menus li a{
+    margin-left: 0vw;
+    list-style: none;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+.header-menus li:hover{
+    color: var(--org);
+    text-decoration: unset;
+}
+.header-menus li a:hover{
+    color: var(--org);
+    text-decoration: unset;
+}
+.header-menus li::before{
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: var(--org);
+    top: 5vw;
+    width: 0%;
+}
+.header-menus li:hover::before{
+    width: 3vw;
+} 
+.header-contect-button{
+    margin: 0.5vw 0vw 0vw 5vw;
+    background-color:var(--org);
+    border:0.1vw solid var(--org);
+    height: 1.3vw;
+    padding: 1.3vw;
+    font-size: 1vw;
+    font-weight: 700;
+}
+.header-contect-button:hover{
+    border:0.1vw solid var(--org);
+    background-color: transparent;
+    color: var(--org);
+}
+.header-text{
+    margin: 5vw 0vw 0vw 0vw;
+    width: 60vw;
+    font-family: Libre Baskerville;
+}
+.header-text b{
+    font-size: 9vw;
+    color: var(--org);
+}
+.header-text p{
+    margin:1vw 0vw 0vw 26vw;
+    font-size: 2.5vw;
+    width: 30vw;
+}
+.aboutus{
+    height: 65vw;
+    width: 100%;
+    background: url("Assests/about-01-free-img.jpg") no-repeat;
+    box-shadow :10vw -100vw 100vw 2vw rgba(0,0,0,0.89) inset;
+    background-size: 100vw 135vw;
+    display: flex;
+}
+.aboutus-one{
+    margin: 10vw 0vw 0vw 5vw;
+    z-index: 1;
+}
+.aboutus-one-head{
+    font-size: 1.3vw;
+    font-weight: 800;
+}
+.aboutus-one-text{
+    font-family: Libre Baskerville ;
+    margin: 1vw 0vw 0vw 0vw;
+    font-size: 4.5vw ;
+    width: 75vw;
+    color: var(--org);
+}
+.aboutus-one-textbas{
+    font-size: 1.2vw;
+    width: 27vw;
+    margin-top: 3vw;
+    word-spacing: 0.2vw;
+    line-height: 2vw;
+}
+.aboutus-button{
+    margin-top: 5vw;
+    background-color:transparent;
+    height: 3.1vw;
+    width: 15vw;
+    border: 0.15vw solid var(--org);
+    box-sizing: border-box;
+    text-align: center;
+}
+.aboutus-button:hover{
+    background-color: var(--org);
+    color: white;
+}   
+.aboutus-button p{
+    font-size: 1vw;
+    font-weight: 900;
+    margin-top: 0.8vw;
+    color: var(--org);
+}
+.aboutus-two{
+    background: url("Assests/about-02-free-img.jpg");
+    height: 65vw;
+    width: 50vw;
+    margin: 7vw 0vw 0vw -38vw;
+}
+.why{
+    height: 88vw;
+    background-color:white;
+    display: flex;
+    color: black;
+}
+.why-image{
+    background:url("Assests/bg-06-free-img.jpg") no-repeat;
+    background-size: 60vw 84vw;
+    height: 82vw;
+    width: 70vw;
+    margin-left: -25vw;
+}
+.why-text{
+    padding: 12vw 0vw 0vw 5vw;
+    box-sizing: border-box;
+}
+.ourser-head{
+    font-family: Libre Baskerville;
+    font-size: 1.5vw;
+    color: black;
+}
+.ourser-text{
+    font-family: Libre Baskerville;
+    margin-top: 1vw;
+    font-size: 4vw;
+    width: 70vw;
+    color: var(--org);
+    font-weight: 800;
+}
+.components-text{
+    font-size: 1.23vw;
+    margin-top: 2vw;
+    line-height: 2vw;
+    color: black;
+}
+.components-text-no{
+    display: flex;
+    margin-top: 13vw;
+    color: black;
+}
+.com-head-no{
+    margin-left: 2vw;
+}
+.com-head-no b{
+    color: var(--org);
+    font-size: 10vw;
+    font-family: Libre Baskerville;
+}
+.com-head-no p{
+    margin: -2vw 0vw 0vw 1vw;
+    font-weight: 800;
+    font-size: 1.5vw;
+    width: 12vw;
+}
+.last{
+    height: 90vw;
+    background: url("Assests/bg-02-free-img.jpg") no-repeat;
+    background-size: 105vw 62vw;
+    background-attachment: fixed;
+    box-shadow :10vw -100vw 100vw 2vw rgba(0,0,0,0.5) inset;
+}
+.last-text{
+    padding: 25vw 0vw 0vw 5vw;
+    box-sizing: border-box;
+    font-family: Libre Baskerville;
+}
+.last-text b{
+    font-size: 9vw;
+    color: var(--org);
+}
+.last-text p{
+    margin:4vw 0vw 0vw 0vw;
+    font-size: 2.5vw;
+    width: 70vw;
+}
+.last-footer{
+    display: flex;
+}
+.last-bu{
+    margin-top: 7vw;
+    background-color:transparent;
+    height: 3.1vw;
+    width: 15vw;
+    border: 0.15vw solid var(--org);
+    padding-top: 0.55vw;
+    text-align: center;
+    box-sizing: border-box;
+    color: var(--org);
+}
+.last-bu:hover{
+    background-color:var(--org);
+    color: aqua;
+}   
+.last-bu b{
+    font-size: 1vw;
+    font-weight: 900;
+    
+    color: var(--org);
+}
+.last-footer-sec{
+    margin: 7vw 0vw 0vw 5vw;
+}
+.last-footer-sec b{
+    font-size: 1.6vw;
+    color: white;
+}
+.last-footer-sec a{
+    color:var(--org);
+    font-size: 1.9vw;
+    margin-top: 1vw;
+    font-weight: 800;
+}
+.last-footer hr{
+    margin: 4.8vw 0vw 0vw 6vw;
+    height: 8vw;
+    background-color: rgba(163, 163, 163, 0.603);
+    width: 0.2vw;
+    border: 0;
+}
+.footer{
+    background-color: white;
+    height: 60vw;
+    margin-top: -1.2vw;
+}
+.footer-list{
+    padding: 5vw;
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+}
+.footer-list-contect{
+    width: 20vw;
+    line-height: 2vw;
+}
+.footer-list-contect b{
+    font-weight: 800;
+}
+.footer-list-ser{
+    margin-left: 10vw;
+}
+.footer-list-ser li{
+    list-style-type: none;
+    margin-left: -3vw;
+}
+hr{
+    background-color: var(--org);
+    width: 99.9%;
+    height: 0.2vw;
+    margin-top: 1vw;
+}
+.footer-first-text{
+    font-family: Libre Baskerville;
+    font-size: 1.4vw;
+    color: black;
+    margin: 5vw 0vw 0vw 5vw ;
+}
+.footer-second-text{
+    margin: 2vw 0vw 0vw 5vw;
+    font-family: Libre Baskerville;
+    color: black;
+    font-size: 9vw;
+    font-weight: 600;
+}
+.footer-third{
+    color: grey;
+    margin: 6vw 0vw 0vw 5vw;
+}
+.footer-icon{
+    margin: 0vw 0vw 0vw 25vw;
+    font-size: 1.6vw;
+}
+.footer-icon i{
+    margin-left: 1vw;
+}

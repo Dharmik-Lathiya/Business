@@ -1,0 +1,237 @@
+:root{
+    --org:#b19541;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Montserrat';
+    background:url("Assests/back.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.header{
+    background:url("Assests/header.jpg") no-repeat;
+    background-size:100% auto;
+    height: 45vw;
+    width: 94.95%;
+    box-shadow :3vw -10vw 100vw 20vw rgba(0,0,0,0.7) inset;
+    padding: 1.5vw 0vw 0vw 5vw;
+}
+.header-nav{
+    display: flex;
+}
+.header-logo img{
+    height: 3.7vw;
+    width: 20vw;
+}
+.header-menus{
+    display: flex;
+    font-size: 1.4vw;
+    margin-left: 15vw;
+    height: 2vw;
+}
+.header-menus li{
+    margin-left: 2vw;
+    list-style: none;
+    font-weight: 700;
+}
+.header-menus li a{
+    margin-left: 0vw;
+    list-style: none;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+.header-menus li:hover{
+    color: var(--org);
+    text-decoration: unset;
+}
+.header-menus li a:hover{
+    color: var(--org);
+    text-decoration: unset;
+}
+.header-menus li::before{
+    transition: 300ms;
+    height: 0.2vw;
+    content: "";
+    position: absolute;
+    background-color: var(--org);
+    top: 5vw;
+    width: 0%;
+}
+.header-menus li:hover::before{
+    width: 3vw;
+} 
+.header-contect-button{
+    margin: 0.5vw 0vw 0vw 5vw;
+    background-color:var(--org);
+    border:0.1vw solid var(--org);
+    height: 1.3vw;
+    padding: 1.3vw;
+    font-size: 1vw;
+    font-weight: 700;
+}
+.header-contect-button:hover{
+    border:0.1vw solid var(--org);
+    background-color: transparent;
+    color: var(--org);
+}
+.header-text{
+    margin: 12vw 0vw 0vw 5vw;
+    width: 20vw;
+    font-family: Libre Baskerville;
+}
+.header-text b{
+    font-size: 8vw;
+    color: var(--org);
+}
+.header-text p{
+    margin:-2vw 0vw 0vw 26vw;
+    font-size: 2.5vw;
+    width: 30vw;
+}
+.main{
+    padding: 6vw 0vw 0vw 5vw;
+    box-sizing: border-box;
+    font-family: Libre Baskerville;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.701);
+}
+.main-sec-text{
+    margin: 2vw 0vw 0vw 0vw;
+    color: var(--org);
+    font-size: 3.6vw;
+    height: 20vw;
+    width: 45vw;
+}
+.main-form a{
+    color: black;
+    font-size: 2.5vw;
+}
+.main-form-first{
+    width: 30%;
+}
+.main-form-first p{
+    font-family:  Montserrat;
+    color: gray;
+    margin-top: q.5vw;
+    font-size: 1.4vw;
+}
+.main-form-first p i{
+    color: var(--org);
+}
+.main-form-first div{
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    width: 30vw;
+    font-family: Montserrat;
+    color: gray;
+}
+.main-form-hr{
+    width: 69%;
+    background-color: var(--org);
+    height: 0.2vw;
+}
+.main-form-sec{
+    margin-left: 3vw;
+    height: 45vw;
+}
+.main-form-sec-input-text{
+    color: gray;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.main-form-sec-input{
+    margin-top: -1vw;
+}
+.main-form-sec-input-textbox{
+    width: 26vw;
+    margin-right: 2vw;
+    height: 2vw;
+    border: 0;
+}
+.main-form-sec-input a{
+    font-size: 1.1vw;
+    color: grey;
+    font-family: Montserrat;
+}
+#main-form-submit-butoon{
+    margin-top: 3vw;
+    font-family: Montserrat;
+    padding: 1vw 0vw 0.7vw 2.5vw;
+    height: 2vw;
+    width: 7.8vw;
+    background-color:transparent;
+    border: 0.2vw solid var(--org);
+    color: var(--org);
+}
+#main-form-submit-butoon:hover{
+    background-color: var(--org);
+    border: 0.2vw solid var(--org);
+    color: white;
+}
+#map{
+    width: 100%;
+    height: 50vw;
+}
+.footer{
+    background-color: white;
+    height: 60vw;
+    margin-top: -1.2vw;
+}
+.footer-list{
+    padding: 5vw;
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+}
+.footer-list-contect{
+    width: 20vw;
+    line-height: 2vw;
+}
+.footer-list-contect b{
+    font-weight: 800;
+}
+.footer-list-ser{
+    margin-left: 10vw;
+}
+.footer-list-ser li{
+    list-style-type: none;
+    margin-left: -3vw;
+}
+hr{
+    background-color: var(--org);
+    width: 99.9%;
+    height: 0.2vw;
+    margin-top: 1vw;
+}
+.footer-first-text{
+    font-family: Libre Baskerville;
+    font-size: 1.4vw;
+    color: black;
+    margin: 5vw 0vw 0vw 5vw ;
+}
+.footer-second-text{
+    margin: 2vw 0vw 0vw 5vw;
+    font-family: Libre Baskerville;
+    color: black;
+    font-size: 9vw;
+    font-weight: 600;
+}
+.footer-third{
+    color: grey;
+    margin: 6vw 0vw 0vw 5vw;
+}
+.footer-icon{
+    margin: 0vw 0vw 0vw 25vw;
+    font-size: 1.6vw;
+}
+.footer-icon i{
+    margin-left: 1vw;
+}
